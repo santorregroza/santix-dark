@@ -4,7 +4,7 @@
   "author": "",
   "editorScheme": "/Santix_Dark.xml",
   "colors": {
-    "foreground": "#eeeeee",
+    "foreground": "#c8c8c8",
     "background": "#222831",
     "accent": "#f65454",
     "accentLighter": "#ffa9a9",
@@ -14,7 +14,7 @@
     "button": "#363c45",
     "pressed": "#222831",
 
-    "border": "#000000",
+    "border": "#323232",
     "componentBorder": "#343030",
 
     "darker": "#181e27",
