@@ -7,15 +7,15 @@
     <property name="originalScheme">_@user_Santix Dark</property>
   </metaInfo>
   <colors>
-    <option name="CARET_COLOR" value="f65454" />
+    <option name="CARET_COLOR" value="ffa04d" />
     <option name="CARET_ROW_COLOR" value="364357" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="222831" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="242936" />
     <option name="DOC_COMMENT_LINK" value="45beac" />
+    <option name="GUTTER_BACKGROUND" value="242936" />
     <option name="INDENT_GUIDE" value="d2d2d2" />
     <option name="SELECTED_INDENT_GUIDE" value="b4b4b4" />
     <option name="SELECTION_BACKGROUND" value="181e27" />
     <option name="SELECTION_FOREGROUND" value="c8c8c8" />
-    <option name="GUTTER_BACKGROUND" value="222831" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -81,7 +81,7 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="f65454" />
+        <option name="FOREGROUND" value="ffa04d" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
@@ -112,8 +112,8 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="f65454" />
-        <option name="EFFECT_COLOR" value="f65454" />
+        <option name="FOREGROUND" value="ffa04d" />
+        <option name="EFFECT_COLOR" value="ffa04d" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -190,7 +190,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="b868af" />
+        <option name="FOREGROUND" value="947bc2" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -207,7 +207,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="f65454" />
+        <option name="FOREGROUND" value="ffa04d" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -219,12 +219,12 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="f65454" />
+        <option name="FOREGROUND" value="ffa04d" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="f65454" />
+        <option name="FOREGROUND" value="ffa04d" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -244,7 +244,7 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="b868af" />
+        <option name="FOREGROUND" value="947bc2" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -256,7 +256,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="90ca67" />
+        <option name="FOREGROUND" value="6dc76b" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -273,9 +273,15 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="f65454" />
-        <option name="ERROR_STRIPE_COLOR" value="f65454" />
+        <option name="EFFECT_COLOR" value="ffa04d" />
+        <option name="ERROR_STRIPE_COLOR" value="ffa04d" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="FOLDED_TEXT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="959BA4" />
+        <option name="BACKGROUND" value="515a70" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -288,8 +294,8 @@
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f65454" />
-        <option name="EFFECT_COLOR" value="f65454" />
+        <option name="FOREGROUND" value="ffa04d" />
+        <option name="EFFECT_COLOR" value="ffa04d" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -306,7 +312,7 @@
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b868af" />
+        <option name="FOREGROUND" value="947bc2" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -335,7 +341,7 @@
     </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="f65454" />
+        <option name="FOREGROUND" value="ffa04d" />
       </value>
     </option>
     <option name="LOG_EXPIRED_ENTRY">
@@ -365,9 +371,9 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8c8c8c" />
-        <option name="EFFECT_COLOR" value="8c8c8c" />
-        <option name="ERROR_STRIPE_COLOR" value="8c8c8c" />
+        <option name="FOREGROUND" value="959BA4" />
+        <option name="EFFECT_COLOR" value="959BA4" />
+        <option name="ERROR_STRIPE_COLOR" value="959BA4" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -398,7 +404,7 @@
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="b868af" />
+        <option name="FOREGROUND" value="947bc2" />
       </value>
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
@@ -410,20 +416,20 @@
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b868af" />
+        <option name="FOREGROUND" value="947bc2" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b868af" />
+        <option name="FOREGROUND" value="947bc2" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="c8c8c8" />
-        <option name="BACKGROUND" value="222831" />
+        <option name="BACKGROUND" value="242936" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -463,8 +469,8 @@
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6e6e6e" />
-        <option name="EFFECT_COLOR" value="f65454" />
-        <option name="ERROR_STRIPE_COLOR" value="f65454" />
+        <option name="EFFECT_COLOR" value="ffa04d" />
+        <option name="ERROR_STRIPE_COLOR" value="ffa04d" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>

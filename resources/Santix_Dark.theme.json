@@ -4,18 +4,18 @@
   "author": "",
   "editorScheme": "/Santix_Dark.xml",
   "colors": {
-    "foreground": "#c8c8c8",
-    "background": "#222831",
-    "accent": "#f65454",
-    "accentLighter": "#ffa9a9",
-    "secondary": "#364357",
-    "accentEvenLighter": "#efeaea",
+    "foreground": "#959BA4",
+    "background": "#242936",
+    "red": "#f65454",
+    "accent": "#FFA04D",
+    "secondary": "#3D465C",
+    "light": "#dcdcdc",
 
-    "button": "#363c45",
-    "pressed": "#222831",
+    "button": "#3D465C",
+    "pressed": "#181e27",
 
-    "border": "#323232",
-    "componentBorder": "#343030",
+    "border": "#181e27",
+    "componentBorder": "#181e27",
 
     "darker": "#181e27",
     "greener": "#3AA87B",
@@ -32,9 +32,9 @@
       "selectionInactiveBackground": "secondary",
       "selectionBackgroundInactive": "secondary",
 
-      "lightSelectionBackground": "accentEvenLighter",
+      "lightSelectionBackground": "secondary",
       "lightSelectionForeground": "darker",
-      "lightSelectionInactiveBackground": "accentEvenLighter",
+      "lightSelectionInactiveBackground": "secondary",
       "lightSelectionInactiveForeground": "background",
 
       "disabledBackground": "background",
@@ -71,9 +71,9 @@
       "default": {
         "foreground": "background",
         "startBackground": "accent",
-        "endBackground": "#e53838",
-        "startBorderColor": "#d73131",
-        "endBorderColor": "#cd2b2b",
+        "endBackground": "accent",
+        "startBorderColor": "accent",
+        "endBorderColor": "accent",
         "shadowColor": "#A6A6A600",
         "focusedBorderColor": "secondary"
       }
@@ -82,7 +82,7 @@
     "Link": {
       "activeForeground": "accent",
       "hoverForeground": "accent",
-      "pressedForeground": "#cb2121",
+      "pressedForeground": "red",
       "visitedForeground": "#b34472"
     },
 
@@ -116,9 +116,10 @@
       "Button": {
         "installForeground": "greener",
         "installBorderColor": "greener",
-        "installFillBackground": "greener"
+        "installFillBackground": "greener",
+        "installFillForeground": "background"
       },
-      "hoverBackground": "accentEvenLighter"
+      "hoverBackground": "secondary"
     },
 
     "TextField.background": "darker",
@@ -137,7 +138,7 @@
     "EditorTabs.underlinedTabBackground": "darker",
 
     "Notification": {
-      "errorForeground": "#DFDFE0",
+      "errorForeground": "foreground",
       "errorBackground": "#99325b",
       "errorBorderColor": "#99325b",
 
@@ -166,42 +167,42 @@
 
     "CompletionPopup": {
       "matchForeground": "accent",
-      "selectionBackground": "secondary",
-      "selectionInactiveBackground": "#e0e0e0"
+      "selectionBackground": "darker",
+      "selectionInactiveBackground": "secondary"
     }
   },
 
   "icons": {
     "ColorPalette": {
-      "Actions.Red": "#e0516b",
+      "Actions.Red": "#f65454",
       "Actions.Blue": "#348def",
       "Actions.Green": "#3AA87B",
       "Actions.Yellow": "#e3b610",
 
-      "Objects.RedStatus": "#fd7171",
-      "Objects.Red": "#dd0b0b",
+      "Objects.RedStatus": "#e0516b",
+      "Objects.Red": "#f65454",
       "Objects.Pink": "#f070a5",
       "Objects.Yellow": "#e6ba29",
       "Objects.Green": "#3AA87B",
       "Objects.Blue": "#499df2",
       "Objects.Purple": "#bc8af2",
       "Objects.YellowDark": "#c39c0c",
-      "Objects.BlackText": "#3d4041",
+      "Objects.BlackText": "#181e27",
 
-      "Checkbox.Background.Default": "#d4d2d2",
-      "Checkbox.Background.Selected": "#ff6e6e",
-      "Checkbox.Background.Disabled": "#f0f0f0",
+      "Checkbox.Background.Default.Dark": "#3D465C",
+      "Checkbox.Background.Selected.Dark": "#FFA04D",
+      "Checkbox.Background.Disabled.Dark": "#181e27",
 
-      "Checkbox.Foreground.Selected": "#fdfdfd",
-      "Checkbox.Foreground.Disabled": "#d4d2d2",
+      "Checkbox.Foreground.Selected.Dark": "#181e27",
+      "Checkbox.Foreground.Disabled.Dark": "#3D465C",
 
-      "Checkbox.Border.Default": "#d4d2d2",
-      "Checkbox.Border.Selected": "#ff6e6e",
-      "Checkbox.Border.Disabled": "#d4d2d2",
+      "Checkbox.Border.Default.Dark": "#3D465C",
+      "Checkbox.Border.Selected.Dark": "#FFA04D",
+      "Checkbox.Border.Disabled.Dark": "#181e27",
 
-      "Checkbox.Focus.Thin.Default": "#d4d2d2",
-      "Checkbox.Focus.Thin.Selected": "#ffa9a9",
-      "Checkbox.Focus.Wide": "#d4d2d2"
+      "Checkbox.Focus.Thin.Default.Dark": "#3D465C",
+      "Checkbox.Focus.Thin.Selected.Dark": "#181e27",
+      "Checkbox.Focus.Wide.Dark": "#FFA04D"
     }
   }
 }
