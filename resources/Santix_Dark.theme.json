@@ -137,7 +137,8 @@
     "DefaultTabs": {
       "inactiveUnderlineColor": "secondary",
       "underlineColor": "accent",
-      "background": "panel"
+      "background": "panel",
+      "hoverBackground": "dark"
     },
 
     "EditorTabs.underlinedTabBackground": "dark",
@@ -195,20 +196,20 @@
       "Objects.BlackText": "#181e27",
 
 
-      "Checkbox.Background.Default.Dark": "#3D465C",
-      "Checkbox.Background.Disabled.Dark": "#242936",
       "Checkbox.Background.Selected.Dark": "#FFA04D",
+      "Checkbox.Background.Default.Dark": "#242936",
+      "Checkbox.Background.Disabled.Dark": "#242936",
 
       "Checkbox.Border.Default.Dark": "#3D465C",
-      "Checkbox.Border.Disabled.Dark": "#181e27",
       "Checkbox.Border.Selected.Dark": "#FFA04D",
+      "Checkbox.Border.Disabled.Dark": "#181e27",
 
       "Checkbox.Focus.Thin.Default.Dark": "#181e27",
       "Checkbox.Focus.Thin.Selected.Dark": "#181e27",
       "Checkbox.Focus.Wide.Dark": "#FFA04D",
 
       "Checkbox.Foreground.Disabled.Dark": "#181e27",
-      "Checkbox.Foreground.Selected.Dark": "#242936"
+      "Checkbox.Foreground.Selected.Dark": "#FFA04D"
     }
   }
 }

@@ -268,6 +268,30 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="DIFF_CONFLICT">
+      <value>
+        <option name="BACKGROUND" value="E52A59" />
+        <option name="ERROR_STRIPE_COLOR" value="E52A59" />
+      </value>
+    </option>
+    <option name="DIFF_DELETED">
+      <value>
+        <option name="BACKGROUND" value="5C5C5C" />
+        <option name="ERROR_STRIPE_COLOR" value="5C5C5C" />
+      </value>
+    </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="BACKGROUND" value="388974" />
+        <option name="ERROR_STRIPE_COLOR" value="388974" />
+      </value>
+    </option>
+    <option name="DIFF_MODIFIED">
+      <value>
+        <option name="BACKGROUND" value="3871A0" />
+        <option name="ERROR_STRIPE_COLOR" value="3871A0" />
+      </value>
+    </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
         <option name="BACKGROUND" value="e8f1e5" />
