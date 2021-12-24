@@ -12,15 +12,11 @@
     "light": "#dcdcdc",
 
     "button": "#3D465C",
-    "pressed": "#181e27",
-
-    "border": "#181e27",
-    "componentBorder": "#181e27",
+    "panel": "#364357",
 
     "darker": "#181e27",
-    "greener": "#3AA87B",
 
-    "panel": "#364357"
+    "greener": "#3AA87B"
   },
   "ui": {
     "*": {
@@ -40,12 +36,12 @@
       "disabledBackground": "background",
       "inactiveBackground": "background",
 
-      "borderColor": "border",
-      "disabledBorderColor": "border",
+      "borderColor": "darker",
+      "disabledBorderColor": "darker",
 
-      "separatorForeground": "border",
-      "separatorColor": "border",
-      "lineSeparatorColor": "border",
+      "separatorForeground": "darker",
+      "separatorColor": "darker",
+      "lineSeparatorColor": "darker",
 
       "modifiedItemForeground": "accent",
 
@@ -59,24 +55,32 @@
     "ActionButton": {
       "hoverBackground": "button",
       "hoverBorderColor": "button",
-      "pressedBackground": "pressed",
-      "pressedBorderColor": "pressed"
+      "pressedBackground": "darker",
+      "pressedBorderColor": "darker"
     },
 
     "Button": {
       "shadowColor": "#A6A6A600",
-      "startBorderColor": "componentBorder",
-      "endBorderColor": "componentBorder",
-      "focusedBorderColor": "secondary",
+      "foreground": "foreground",
+      "startBackground": "secondary",
+      "endBackground": "secondary",
+      "startBorderColor": "secondary",
+      "endBorderColor": "secondary",
+      "focusedBorderColor": "darker",
+
       "default": {
+        "shadowColor": "#A6A6A600",
         "foreground": "background",
         "startBackground": "accent",
         "endBackground": "accent",
         "startBorderColor": "accent",
         "endBorderColor": "accent",
-        "shadowColor": "#A6A6A600",
-        "focusedBorderColor": "secondary"
-      }
+        "focusedBorderColor": "darker",
+        "focusColor": "accent"
+      },
+
+      "disabledText": "darker",
+      "disabledBorderColor": "darker"
     },
 
     "Link": {
@@ -87,13 +91,13 @@
     },
 
     "Borders": {
-      "color": "border",
-      "ContrastBorderColor": "border"
+      "color": "darker",
+      "ContrastBorderColor": "darker"
     },
 
     "ComboBox": {
       "ArrowButton": {
-        "iconColor": "pressed",
+        "iconColor": "darker",
         "background": "background",
         "disabledIconColor": "button",
         "nonEditableBackground": "background"
@@ -127,7 +131,7 @@
 
     "Editor.shortcutForeground": "accent",
 
-    "DebuggerPopup.borderColor": "border",
+    "DebuggerPopup.borderColor": "darker",
 
     "DefaultTabs": {
       "inactiveUnderlineColor": "secondary",
@@ -142,18 +146,18 @@
       "errorBackground": "#99325b",
       "errorBorderColor": "#99325b",
 
-      "MoreButton.innerBorderColor": "border"
+      "MoreButton.innerBorderColor": "darker"
     },
 
     "ProgressBar": {
-      "trackColor": "border",
+      "trackColor": "darker",
       "progressColor": "accent",
       "indeterminateStartColor": "secondary",
       "passedColor": "greener",
       "passedEndColor": "#368E68"
     },
 
-    "StatusBar.borderColor": "border",
+    "StatusBar.borderColor": "darker",
     "ToolWindow.Header.inactiveBackground": "background",
 
     "SearchMatch": {
@@ -167,8 +171,8 @@
 
     "CompletionPopup": {
       "matchForeground": "accent",
-      "selectionBackground": "darker",
-      "selectionInactiveBackground": "secondary"
+      "selectionBackground": "secondary",
+      "selectionInactiveBackground": "darker"
     }
   },
 
@@ -189,18 +193,19 @@
       "Objects.YellowDark": "#c39c0c",
       "Objects.BlackText": "#181e27",
 
+
+      "Checkbox.Foreground.Selected.Dark": "#242936",
+      "Checkbox.Foreground.Disabled.Dark": "#181e27",
+
       "Checkbox.Background.Default.Dark": "#3D465C",
       "Checkbox.Background.Selected.Dark": "#FFA04D",
-      "Checkbox.Background.Disabled.Dark": "#181e27",
-
-      "Checkbox.Foreground.Selected.Dark": "#181e27",
-      "Checkbox.Foreground.Disabled.Dark": "#3D465C",
+      "Checkbox.Background.Disabled.Dark": "#242936",
 
       "Checkbox.Border.Default.Dark": "#3D465C",
       "Checkbox.Border.Selected.Dark": "#FFA04D",
       "Checkbox.Border.Disabled.Dark": "#181e27",
 
-      "Checkbox.Focus.Thin.Default.Dark": "#3D465C",
+      "Checkbox.Focus.Thin.Default.Dark": "#181e27",
       "Checkbox.Focus.Thin.Selected.Dark": "#181e27",
       "Checkbox.Focus.Wide.Dark": "#FFA04D"
     }

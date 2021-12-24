@@ -10,12 +10,14 @@
     <option name="CARET_COLOR" value="ffa04d" />
     <option name="CARET_ROW_COLOR" value="364357" />
     <option name="CONSOLE_BACKGROUND_KEY" value="242936" />
+    <option name="DOCUMENTATION_COLOR" value="242936" />
     <option name="DOC_COMMENT_LINK" value="45beac" />
     <option name="GUTTER_BACKGROUND" value="242936" />
     <option name="INDENT_GUIDE" value="d2d2d2" />
+    <option name="LOOKUP_COLOR" value="242936" />
     <option name="SELECTED_INDENT_GUIDE" value="b4b4b4" />
-    <option name="SELECTION_BACKGROUND" value="181e27" />
-    <option name="SELECTION_FOREGROUND" value="c8c8c8" />
+    <option name="SELECTION_BACKGROUND" value="FFA04D" />
+    <option name="SELECTION_FOREGROUND" value="181e27" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -366,7 +368,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="d3ecfc" />
+        <option name="FOREGROUND" value="959BA4" />
+        <option name="BACKGROUND" value="181e27" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
